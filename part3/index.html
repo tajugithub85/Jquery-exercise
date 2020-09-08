@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+<title>Document</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center"> Favourite Movies</h1>
+        </div>  
+    </div>
+
+      <div class="row">
+
+
+              <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 form-group">
+                <label class="d-flex d-flex align-items-baseline" for="title-input">Title
+                    <input type="text" class="form-control mb-2" id="title-input" placeholder="Movie Title">
+                </label>
+
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 form-group">
+                <label class="d-flex d-flex align-items-baseline" for="rating-input">Rating
+                    <input type="number" class="form-control" id="rating-input" placeholder="Rate the movie from 0 to 10" min="0" max="10">
+                </label>
+
+              </div>
+              <div class="col-auto form-group">
+                <button class="btn btn-info mb-2" id="add-btn" >Add Movie</button>
+              </div>
+
+      </div>  
+
+      <div class="row">
+        <table class="table table-bordered table-hover table-striped text-center w-75 mx-auto">
+            <thead class="thead-light">
+              <tr>
+
+                <th class="cell" scope="col">Title
+                    <span class="sort-btn" id="sort-title">
+                        <i class="fas fa-sort"></i>
+                    </span>
+                </th>
+                <th scope="col">Rating
+                    <span class="sort-btn" id="sort-rating">
+                        <i class="fas fa-sort"></i>
+                    </span>
+                </th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+      </div>
+</div>
+
+      <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+      <script src="./jquery.js"></script>
+</body>
+</html>

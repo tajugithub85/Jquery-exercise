@@ -1,0 +1,14 @@
+
+		.container { 
+			width: 80%; 
+			height: auto; 
+		} 
+		
+		.foot { 
+			position: fixed; 
+			left: 10%; 
+			bottom: 20em; 
+			width: 80%; 
+			text-align: center; 
+		} 
+	
